@@ -1,0 +1,36 @@
+{
+    "name": "Test capteurs (block)",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.9",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.7",
+        "joystickbit": "github:tinkertanker/pxt-joystickbit#v1.0.1",
+        "CODO": "github:codomicrobit/pxt-codo#f19ac96dae3db6f60feb76a3178066c3ce3d19a8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.18",
+        "tag": "v4.0.18",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/b9d2eeff8116b75fa50f663091b0e3acd800b7bc",
+        "target": "5.0.12",
+        "pxt": "7.0.14",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "documentation": "/projects/turtle-spiral"
+}
